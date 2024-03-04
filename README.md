@@ -1,7 +1,7 @@
 # HotelManagementSystem
 
 ## Description
-Hotel Management System is a Django project designed to streamline various operations within a hotel establishment, including accounting, front desk management, restaurant management, and overall hotel management. The project is structured into different Django apps, each serving a specific function within the hotel management system. These apps include:
+Hotel Management System is a Django project designed to facilitate various hotel management tasks, including accounting, front desk operations, restaurant management, and overall hotel administration. The project is structured into distinct Django apps, each catering to specific functionalities within the hotel management system. These apps include:
 
 - **Accounting**: Manages billing and payment information for customers.
 - **Front Desk**: Handles customer information and room assignments.
@@ -42,10 +42,13 @@ The project implements a range of Django features and concepts, such as models, 
 ## How to Use
 1. Clone or download the repository containing the Hotel Management System project files.
 2. Set up a Python virtual environment for the project (optional but recommended).
-3. Install Django and other dependencies listed in the project's requirements.
+3. Install Django and other dependencies listed in the project's requirements.("pip install -r requirements.txt
+")
 4. Configure the Django settings according to your environment, including database settings and secret key.
-5. Run database migrations to create the necessary tables in the database.
-6. Start the Django development server.
+5. Run database migrations to create the necessary tables in the database.(python manage.py makemigrations
+python manage.py migrate
+)
+6. Run the Django development server. ("python manage.py runserver")
 7. Access different functionalities of the Hotel Management System through the provided APIs.
 8. Customize and extend the project as needed for your specific hotel management requirements.
 
