@@ -7,7 +7,6 @@ Hotel Management System is a Django project designed to facilitate various hotel
 - **Front Desk**: Handles customer information and room assignments.
 - **Management**: Controls user authentication and manages room types and individual rooms.
 - **Restaurant**: Manages menu items and food descriptions for the hotel's restaurant.
-- **Core**: Contains custom permissions for accessing Django models.
 
 The project implements a range of Django features and concepts, such as models, views, serializers, authentication, permissions, and URL routing. By leveraging these features, the Hotel Management System provides a robust and efficient solution for managing hotel operations.
 
