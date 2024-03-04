@@ -28,10 +28,6 @@ The project implements a range of Django features and concepts, such as models, 
   - Manages menu items available at the hotel restaurant.
   - Associates food items with menu categories for easy navigation.
 
-- **Core App**:
-  - Implements custom permissions for controlling access to Django models.
-  - Enhances security by defining specific permissions for CRUD operations on each model.
-
 ## Concepts Used
 - **Models and Views**: Define data models and implement views to interact with the data.
 - **Serializers**: Serialize and deserialize data between Django models and JSON representations.
