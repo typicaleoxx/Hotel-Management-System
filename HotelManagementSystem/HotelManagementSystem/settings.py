@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     "restaurant",
     "rest_framework",
     "rest_framework.authtoken",
+    "django_filters",
 ]
 
 MIDDLEWARE = [
@@ -128,6 +129,7 @@ REST_FRAMEWORK = {
         "rest_framework.permissions.IsAuthenticated",
         "core.permissions.CustomDjangoModelPermission",
     ],
+    "DEFAULT_FILTER_BACKENDS": ["django_filters.rest_framework.DjangoFilterBackend"],
 }
 
 # Static files (CSS, JavaScript, Images)

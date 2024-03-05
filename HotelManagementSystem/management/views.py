@@ -14,6 +14,7 @@ from rest_framework.authtoken.models import Token
 from django.contrib.auth.hashers import make_password
 from rest_framework.permissions import AllowAny
 from django.contrib.auth.models import Group
+from rest_framework import filters
 
 
 class GroupView(ModelViewSet):
@@ -46,10 +47,13 @@ class RoomTypeView(ModelViewSet):
 class RoomView(GenericAPIView):
     queryset = Room.objects.all()
     serializer_class = RoomSerializer
+    filterset_fields=["type"]
+    search_fields = ['name',]
 
     def get(self, request):
         room_objs = Room.objects.all()
-        serializer = RoomSerializer(room_objs, many=True)
+        filter_objs=self.filter_queryset(room_objs)
+        serializer = RoomSerializer(filter_objs, many=True)
         return Response(serializer.data)
 
     def post(self, request):
