@@ -47,15 +47,15 @@ The project implements a range of Django features and concepts, such as models, 
 4. Configure the Django settings according to your environment, including database settings and secret key.
 5. Run database migrations to create the necessary tables in the database:
 
-   **```bash
+   ```bash
    python manage.py migrate
-   ```**
+   ```
 
 6. Start the Django development server:
 
-   **```bash
+   ```bash
    python manage.py runserver
-   ```**
+   ```
 
 7. Access different functionalities of the Restaurant Management System through the provided APIs.
 8. Customize and extend the project as needed for your specific restaurant management requirements.
