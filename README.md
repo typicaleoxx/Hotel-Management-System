@@ -35,20 +35,34 @@ The project implements a range of Django features and concepts, such as models, 
 - **RESTful API Design**: Implement CRUD operations using Django Rest Framework for building RESTful APIs.
 
 ## How to Use
-1. Clone or download the repository containing the Hotel Management System project files.
+
+1. Clone or download the repository containing the Restaurant Management System project files.
 2. Set up a Python virtual environment for the project (optional but recommended).
-3. Install Django and other dependencies listed in the project's requirements.("pip install -r requirements.txt
-")
+3. Install Django and other dependencies listed in the project's requirements file using the following command:
+
+   **```bash
+   pip install -r requirements.txt
+   ```**
+
 4. Configure the Django settings according to your environment, including database settings and secret key.
-5. Run database migrations to create the necessary tables in the database.(python manage.py makemigrations
-python manage.py migrate
-)
-6. Run the Django development server. ("python manage.py runserver")
-7. Access different functionalities of the Hotel Management System through the provided APIs.
-8. Customize and extend the project as needed for your specific hotel management requirements.
+5. Run database migrations to create the necessary tables in the database:
+
+   **```bash
+   python manage.py migrate
+   ```**
+
+6. Start the Django development server:
+
+   **```bash
+   python manage.py runserver
+   ```**
+
+7. Access different functionalities of the Restaurant Management System through the provided APIs.
+8. Customize and extend the project as needed for your specific restaurant management requirements.
+
 
 ## Possible Updates or Contributions
-- Add more features and functionalities to enhance the hotel management system.
+- Add more features and functionalities to enhance the restaurant management system.
 - Improve the user interface for better usability and aesthetics.
 - Optimize code for performance and scalability.
 - Implement additional security measures to protect sensitive data.
