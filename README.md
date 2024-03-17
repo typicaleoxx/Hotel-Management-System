@@ -62,7 +62,7 @@ The project implements a range of Django features and concepts, such as models, 
 
 
 ## Possible Updates or Contributions
-- Add more features and functionalities to enhance the restaurant management system.
+- Add more features and functionalities to enhance the hotel management system.
 - Improve the user interface for better usability and aesthetics.
 - Optimize code for performance and scalability.
 - Implement additional security measures to protect sensitive data.
