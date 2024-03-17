@@ -40,9 +40,9 @@ The project implements a range of Django features and concepts, such as models, 
 2. Set up a Python virtual environment for the project (optional but recommended).
 3. Install Django and other dependencies listed in the project's requirements file using the following command:
 
-   **```bash
+   ```bash
    pip install -r requirements.txt
-   ```**
+   ```
 
 4. Configure the Django settings according to your environment, including database settings and secret key.
 5. Run database migrations to create the necessary tables in the database:
